@@ -1,5 +1,4 @@
 var Viagem = /** @class */ (function () {
-    //nome : String;
     function Viagem(TempoGasto, VelocidadeMedia, RendimentoVeiculo) {
         this.TempoGasto = TempoGasto;
         this.VelocidadeMedia = VelocidadeMedia;
@@ -13,6 +12,3 @@ var Viagem = /** @class */ (function () {
     };
     return Viagem;
 }());
-/*let Rogerio = new Aluno ("Rogerio de Morais"){
-    Rogerio.nome= "Rogerio e Morais";
-} */ 

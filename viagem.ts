@@ -1,5 +1,5 @@
 class Viagem{
-    //nome : String;
+
    
     constructor( public TempoGasto:number,public VelocidadeMedia:number, public RendimentoVeiculo:number){
         
@@ -24,6 +24,3 @@ class Viagem{
     
    }
    
-   /*let Rogerio = new Aluno ("Rogerio de Morais"){
-       Rogerio.nome= "Rogerio e Morais";
-   } */

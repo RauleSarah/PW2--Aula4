@@ -1,3 +1,5 @@
+"use strict";
+exports.__esModule = true;
 var Aluno = /** @class */ (function () {
     //nome : String;
     function Aluno(nome) {
@@ -5,10 +7,11 @@ var Aluno = /** @class */ (function () {
         this.nome = nome;
     }
     Aluno.prototype.exibir = function () {
-        console.log("Nome" + this.nome);
+        console.log("Nome: " + this.nome);
     };
     return Aluno;
 }());
+exports.Aluno = Aluno;
 /*let Rogerio = new Aluno ("Rogerio de Morais"){
     Rogerio.nome= "Rogerio e Morais";
 } */ 

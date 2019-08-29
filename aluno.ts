@@ -1,4 +1,4 @@
- class Aluno{
+export class Aluno{
  //nome : String;
 
  constructor( public nome:String){
@@ -6,7 +6,7 @@
     }
 
     exibir(){
-        console.log("Nome" + this.nome)
+        console.log("Nome: " + this.nome)
     }
 
 
