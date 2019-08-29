@@ -1,4 +1,4 @@
-class Viagem{
+export class Viagem{
 
    
     constructor( public TempoGasto:number,public VelocidadeMedia:number, public RendimentoVeiculo:number){
